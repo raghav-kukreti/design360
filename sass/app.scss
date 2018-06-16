@@ -1,0 +1,225 @@
+*,
+*::after,
+*::before {
+	box-sizing: border-box;
+	transition: all .35s ease-in-out;
+	margin: 0;
+	padding: 0;
+}
+
+html,
+body {
+	font-size: 100%; 
+}
+
+.body {
+	font-smoothing: antialiased;
+	text-rendering: geometricPrecision;
+}
+
+.esya_logo {
+	position: absolute;
+	right: 20px;
+	top: 20px;
+	background: url(esya.png) center center no-repeat;
+	background-size: cover;
+	height: 100px;
+	width: 100px;
+}
+.iiitd_logo {
+	position: absolute;
+	left: 20px;
+	top: 20px;
+	background: url(iiitd.png) ;
+	background-size: cover;
+	height: 50px;
+	width: 100px;
+}
+.hero {
+	height: 100vh;
+	display: table;
+	width: 100%;
+	background: #efefef;
+
+	.container {
+		display: table-row;
+		width: 100%;
+		.cell {
+			display: table-cell;
+			width: 50%;
+			vertical-align: middle;
+			text-align: center;
+		}
+		.left {
+			background: url(back.jpg) center center no-repeat fixed;
+			background-size: cover;
+			h1 {
+				font-family: Raleway;
+				font-weight: normal;
+				font-size: 5vw;
+				background: #fc00ff;  /* fallback for old browsers */
+				background: -webkit-linear-gradient(to right, #00dbde, #fc00ff);  /* Chrome 10-25, Safari 5.1-6 */
+				background: linear-gradient(to right, #00dbde, #fc00ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+				-webkit-background-clip: text;
+				-webkit-text-fill-color: transparent;
+
+			}
+			h3 {
+				margin-top: 10px;
+				font-family: PT Mono;
+				font-weight: normal;
+				font-size: 1vw;
+				color: #999;
+			}
+		}
+		.right {
+			/*position: relative;*/
+			background: url("https://www.toptal.com/designers/subtlepatterns/patterns/simple_dashed.png");
+
+			font-family: IBM Plex Sans;
+			font-size: 1.2vw;
+			color: rgba(#fff, 0.7);
+			text-align: left !important;
+			.lead {
+				line-height: 1.4;
+				padding: 0 100px;
+			}
+		}
+	}
+}
+
+.links {
+	position: absolute;
+	margin-top: 30px;
+	a {
+		margin-right: 20px;
+		text-decoration: none;
+		padding-bottom: 5px;
+		border-bottom: 2px solid rgba(#fff, 0); 
+		&:hover{
+			color: rgba(#00adef, 1);
+
+			border-bottom: 2px solid rgba(#00adef, .4); 
+		}
+	}
+}
+.one {
+	color: rgba(#00adef, .6);
+}
+.two {
+	color: rgba(#00adef, .6);
+}
+.three {
+	color: rgba(#00adef, .6);
+}
+.four {
+	color: rgba(#00adef, .6);
+	
+}
+.divider {
+	height: 20vh;
+	background: url("https://www.toptal.com/designers/subtlepatterns/patterns/memphis-colorful.png") center center fixed;
+
+}
+.coming_soon {
+	height: 50vh;
+	background: black;
+	display: table;
+	width: 100%;
+	.centered {
+		display: table-cell;
+		vertical-align: middle;
+		text-align: center;
+
+		h1 {
+			font-family: Raleway;
+			font-weight: normal;
+			font-size: 3vw;
+			letter-spacing: -.2px;
+			background: #fc00ff;  /* fallback for old browsers */
+			background: -webkit-linear-gradient(to right, #00dbde, #fc00ff);  /* Chrome 10-25, Safari 5.1-6 */
+			background: linear-gradient(to right, #00dbde, #fc00ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+			-webkit-background-clip: text;
+			-webkit-text-fill-color: transparent;
+		}
+		h3 {
+			margin-top: 15px;
+			font-family: PT Mono;
+			font-weight: normal;
+			font-size: 1vw;
+			letter-spacing: 2px;
+			color: rgba(#999, 0.7);
+		}
+	}
+}
+.past_spons {
+	font-family: IBM Plex Sans;
+	background: url(spons.png) bottom center no-repeat ;
+	height: 100vh;
+	text-align: center;
+	h1 {
+		font-size: 2vw;
+		padding: 70px 0;
+		font-weight: normal;
+	}
+}
+
+.contact {
+	background: black;
+	/*height: 50vh;*/
+	padding: 60px 100px;
+	h1 {
+		padding-bottom: 5px;
+		font-family: IBM Plex Sans;
+		color: #999;
+		text-transform: uppercase;
+		letter-spacing: 2px;
+		font-size: 1.6vw;
+	}
+	.mini-dash {
+		color: #999;
+		margin-top: 5px;
+		width: 3vw;
+		height: .2vw;
+		background: #999;
+	}
+}
+
+.names {
+	display: table;
+	width: 100%;
+	padding-top: 50px;
+	padding-bottom: 25px;
+	.name_row {
+		display: table-row;
+		width: 100%;
+		.name {
+			display: table-cell;
+			h2 {
+				font-weight: normal;
+				font-family: IBM Plex Sans;
+				color: #999;
+				font-size: 1.5vw;
+				padding-bottom: 10px;
+			}
+			h3 {
+				font-weight: normal;
+			}
+			a {
+				text-decoration: none;
+				opacity: .7;
+				font-size: .9vw;
+				font-family: PT Mono;
+				color: #00adef;
+			}
+		}
+	}
+}
+
+.savethedate {
+	font-size: .8vw;
+	margin-top: 30px;
+	font-family: PT Mono;
+	color: rgba(#fff, 0.4);
+	/*letter-spacing: -2px;*/
+}

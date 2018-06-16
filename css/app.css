@@ -108,8 +108,27 @@ body {
   color: rgba(0, 173, 239, 0.6); }
 
 .divider {
-  height: 20vh;
-  background: url("https://www.toptal.com/designers/subtlepatterns/patterns/memphis-colorful.png") center center fixed; }
+  height: 50vh;
+  /*background: url("https://www.toptal.com/designers/subtlepatterns/patterns/memphis-colorful.png") center center fixed;*/
+  display: table;
+  width: 100%; }
+  .divider .centered {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center; }
+    .divider .centered h1 {
+      font-family: Raleway;
+      font-weight: normal;
+      font-size: 3vw;
+      letter-spacing: -.2px;
+      color: black; }
+    .divider .centered h3 {
+      margin-top: 15px;
+      font-family: PT Mono;
+      font-weight: normal;
+      font-size: 1vw;
+      letter-spacing: 2px;
+      color: rgba(153, 153, 153, 0.7); }
 
 .coming_soon {
   height: 50vh;

@@ -182,6 +182,8 @@ body {
 	img {
 		max-width:100% !important;
 		height:auto;
+		margin-left: auto;
+		margin-right: auto;
 		display:block;
 	}
 	h1 {
@@ -249,4 +251,90 @@ body {
 	font-family: IBM Plex Sans;
 	color: rgba(#fff, 0.4);
 	/*letter-spacing: -2px;*/
+}
+.mobile-hero {
+	height: 80vh;
+	background: black;
+	width:100%;
+	padding: 0;
+	margin: 0;
+	display: table;
+	position: relative;
+	.headings {
+		text-align: center;
+		display: table-cell;
+		vertical-align: middle;
+		color: #fff;
+	}
+	h1 {
+		font-family: Raleway;
+		font-weight: normal;
+		font-size: 3rem;
+		background: #fc00ff;  /* fallback for old browsers */
+		background: -webkit-linear-gradient(to right, #00dbde, #fc00ff);  /* Chrome 10-25, Safari 5.1-6 */
+		background: linear-gradient(to right, #00dbde, #fc00ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+
+	}
+	h3 {
+		margin-top: 10px;
+		// margin-bottom: 100px;
+		font-family: IBM Plex Sans;
+		font-weight: normal;
+		font-size: 1rem;
+		color: #999;
+	}
+
+	.register-mobile {
+		color: rgba(#fff, 0.5);
+		font-family: PT Mono;
+		text-decoration: none;
+		font-size: 9pt;
+		border-radius: 50px;
+		border: 2px solid rgba(#fff, 0.5);
+		padding: 13px 20px;
+		&:active,
+		&:focus {
+			background: #fc00ff;  /* fallback for old browsers */
+			background: -webkit-linear-gradient(to right, #00dbde, #fc00ff);  /* Chrome 10-25, Safari 5.1-6 */
+			background: linear-gradient(to right, #00dbde, #fc00ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+			
+			// background: #00adef;
+			color: #fff;
+			border: 2px solid rgba(#fff, 0);
+		}
+	}
+
+	.links {
+		position: absolute;
+		top: 0;
+		font-family: IBM Plex Sans;
+		width: 100%;
+		.inline {
+			li {
+				display: inline;
+				a {
+					opacity: 0.6;
+					color: #00adef;
+				}
+			}
+		}
+	}
+}
+@media only screen and (max-width: 500px) {
+	.esya_logo {
+		top: 5px;
+		right: 5px;
+		height: 90px;
+		width: 90px;
+	}
+
+	.iiitd_logo {
+		height: 40px;
+		width: 80px;
+	}
+	.hero {
+		display: none;
+	}
 }

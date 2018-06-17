@@ -176,12 +176,17 @@ body {
 }
 .past_spons {
 	font-family: IBM Plex Sans;
-	background: url(spons.png) bottom center no-repeat ;
-	height: 100vh;
+	/*background: url(spons.png) bottom center no-repeat ;*/
+	/*height: 100vh;*/
 	text-align: center;
+	img {
+		max-width:100% !important;
+		height:auto;
+		display:block;
+	}
 	h1 {
 		font-size: 2vw;
-		padding: 70px 0;
+		padding-top: 70px;
 		font-weight: normal;
 	}
 }

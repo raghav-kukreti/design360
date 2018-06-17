@@ -306,4 +306,58 @@ body {
     height: 40px;
     width: 80px; }
   .hero {
-    display: none; } }
+    display: none; }
+  .divider {
+    height: 30vh;
+    /*background: url("https://www.toptal.com/designers/subtlepatterns/patterns/memphis-colorful.png") center center fixed;*/
+    display: table;
+    width: 100%; }
+    .divider .centered {
+      display: table-cell;
+      vertical-align: middle;
+      text-align: center; }
+      .divider .centered h1 {
+        font-family: Raleway;
+        font-weight: normal;
+        font-size: 2rem;
+        letter-spacing: -.2px;
+        color: black; }
+      .divider .centered h3 {
+        margin-top: 15px;
+        font-family: IBM Plex Sans;
+        font-weight: normal;
+        font-size: 1rem;
+        letter-spacing: 2px;
+        color: rgba(153, 153, 153, 0.7); }
+  .coming_soon {
+    height: 30vh;
+    background: black;
+    display: table;
+    width: 100%; }
+    .coming_soon .centered {
+      display: table-cell;
+      vertical-align: middle;
+      text-align: center; }
+      .coming_soon .centered h1 {
+        font-family: Raleway;
+        font-weight: normal;
+        font-size: 2rem;
+        letter-spacing: -.2px;
+        background: #fc00ff;
+        /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #00dbde, #fc00ff);
+        /* Chrome 10-25, Safari 5.1-6 */
+        background: -webkit-gradient(linear, left top, right top, from(#00dbde), to(#fc00ff));
+        background: -webkit-linear-gradient(left, #00dbde, #fc00ff);
+        background: -o-linear-gradient(left, #00dbde, #fc00ff);
+        background: linear-gradient(to right, #00dbde, #fc00ff);
+        /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent; }
+      .coming_soon .centered h3 {
+        margin-top: 15px;
+        font-family: IBM Plex Sans;
+        font-weight: normal;
+        font-size: 1rem;
+        letter-spacing: 2px;
+        color: rgba(153, 153, 153, 0.7); } }

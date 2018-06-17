@@ -332,7 +332,7 @@ body {
 	}
 	.mobile-hero {
 		display: table;
-		
+
 	}
 	.iiitd_logo {
 		height: 40px;
@@ -340,5 +340,63 @@ body {
 	}
 	.hero {
 		display: none;
+	}
+	.divider {
+		height: 30vh;
+		/*background: url("https://www.toptal.com/designers/subtlepatterns/patterns/memphis-colorful.png") center center fixed;*/
+		display: table;
+		width: 100%;
+		.centered {
+			display: table-cell;
+			vertical-align: middle;
+			text-align: center;
+
+			h1 {
+				font-family: Raleway;
+				font-weight: normal;
+				font-size: 2rem;
+				letter-spacing: -.2px;
+				color: black;
+			}
+			h3 {
+				margin-top: 15px;
+				font-family: IBM Plex Sans;
+				font-weight: normal;
+				font-size: 1rem;
+				letter-spacing: 2px;
+				color: rgba(#999, 0.7);
+			}
+		}
+	}
+	.coming_soon {
+		height: 30vh;
+		background: black;
+		display: table;
+		width: 100%;
+		.centered {
+			display: table-cell;
+			vertical-align: middle;
+			text-align: center;
+
+			h1 {
+				font-family: Raleway;
+				font-weight: normal;
+				font-size: 2rem;
+				letter-spacing: -.2px;
+				background: #fc00ff;  /* fallback for old browsers */
+				background: -webkit-linear-gradient(to right, #00dbde, #fc00ff);  /* Chrome 10-25, Safari 5.1-6 */
+				background: linear-gradient(to right, #00dbde, #fc00ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+				-webkit-background-clip: text;
+				-webkit-text-fill-color: transparent;
+			}
+			h3 {
+				margin-top: 15px;
+				font-family: IBM Plex Sans;
+				font-weight: normal;
+				font-size: 1rem;
+				letter-spacing: 2px;
+				color: rgba(#999, 0.7);
+			}
+		}
 	}
 }

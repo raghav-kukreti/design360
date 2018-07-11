@@ -146,13 +146,18 @@ body {
 .four {
 	color: rgba(#00adef, .6);
 }
-
+.coming_soon_two {
+	background: #fff !important;
+}
 .divider {
 	height: 30vh;
-	background: url("https://www.toptal.com/designers/subtlepatterns/patterns/memphis-colorful.png") center center fixed;
+	// background: url("https://www.toptal.com/designers/subtlepatterns/patterns/memphis-colorful.png") center center fixed;
 	display: table;
+	background: url(sep.JPG) center center no-repeat fixed;
+	background-size: cover;
 	width: 100%;
 	.centered {
+		background: rgba(#00adef, 0.6);
 		display: table-cell;
 		vertical-align: middle;
 		text-align: center;

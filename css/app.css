@@ -168,13 +168,8 @@ body {
   /*background: url(spons.png) bottom center no-repeat ;*/
   /*height: 100vh;*/
   text-align: center; }
-  .past_spons img {
-    max-width: 100% !important;
-    height: auto;
-    margin-left: auto;
-    margin-right: auto;
-    display: block; }
   .past_spons h1 {
+    font-family: Raleway;
     font-size: 2vw;
     padding-top: 70px;
     font-weight: normal; }
@@ -415,8 +410,26 @@ body {
     /*letter-spacing: -2px;*/ } }
 
 .small {
-  font-size: 0.5rem;
+  font-size: 0.8	rem;
   opacity: 0.7; }
   .small a {
     color: #ff3355;
     text-decoration: none; }
+
+.name img {
+  border-radius: 50%;
+  margin-bottom: 10px; }
+
+.logosbar {
+  width: 100%;
+  padding: 10px 50px; }
+  .logosbar .logocontain {
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    text-align: center; }
+    .logosbar .logocontain img {
+      vertical-align: middle;
+      margin-left: 50px;
+      margin-bottom: 80px; }

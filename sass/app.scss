@@ -9,7 +9,7 @@
 
 html,
 body {
-	font-size: 100%; 
+	font-size: 100%;
 }
 
 .body {
@@ -26,15 +26,17 @@ body {
 	height: 100px;
 	width: 100px;
 }
+
 .iiitd_logo {
 	position: absolute;
 	left: 20px;
 	top: 20px;
-	background: url(iiitd.png) ;
+	background: url(iiitd.png);
 	background-size: cover;
 	height: 50px;
 	width: 100px;
 }
+
 .hero {
 	height: 100vh;
 	display: table;
@@ -57,12 +59,14 @@ body {
 				font-family: Raleway;
 				font-weight: normal;
 				font-size: 5vw;
-				background: #fc00ff;  /* fallback for old browsers */
-				background: -webkit-linear-gradient(to right, #00dbde, #fc00ff);  /* Chrome 10-25, Safari 5.1-6 */
-				background: linear-gradient(to right, #00dbde, #fc00ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+				background: #fc00ff;
+				/* fallback for old browsers */
+				background: -webkit-linear-gradient(to right, #00dbde, #fc00ff);
+				/* Chrome 10-25, Safari 5.1-6 */
+				background: linear-gradient(to right, #00dbde, #fc00ff);
+				/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 				-webkit-background-clip: text;
 				-webkit-text-fill-color: transparent;
-
 			}
 			h3 {
 				margin-top: 10px;
@@ -95,27 +99,31 @@ body {
 		margin-right: 20px;
 		text-decoration: none;
 		padding-bottom: 5px;
-		border-bottom: 2px solid rgba(#fff, 0); 
-		&:hover{
+		border-bottom: 2px solid rgba(#fff, 0);
+		&:hover {
 			color: rgba(#00adef, 1);
 
-			border-bottom: 2px solid rgba(#00adef, .4); 
+			border-bottom: 2px solid rgba(#00adef, .4);
 		}
 	}
 }
+
 .one {
 	color: rgba(#00adef, .6);
 }
+
 .two {
 	color: rgba(#00adef, .6);
 }
+
 .three {
 	color: rgba(#00adef, .6);
 }
+
 .four {
 	color: rgba(#00adef, .6);
-	
 }
+
 .divider {
 	height: 50vh;
 	/*background: url("https://www.toptal.com/designers/subtlepatterns/patterns/memphis-colorful.png") center center fixed;*/
@@ -143,6 +151,7 @@ body {
 		}
 	}
 }
+
 .coming_soon {
 	height: 50vh;
 	background: black;
@@ -158,9 +167,12 @@ body {
 			font-weight: normal;
 			font-size: 3vw;
 			letter-spacing: -.2px;
-			background: #fc00ff;  /* fallback for old browsers */
-			background: -webkit-linear-gradient(to right, #00dbde, #fc00ff);  /* Chrome 10-25, Safari 5.1-6 */
-			background: linear-gradient(to right, #00dbde, #fc00ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+			background: #fc00ff;
+			/* fallback for old browsers */
+			background: -webkit-linear-gradient(to right, #00dbde, #fc00ff);
+			/* Chrome 10-25, Safari 5.1-6 */
+			background: linear-gradient(to right, #00dbde, #fc00ff);
+			/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 			-webkit-background-clip: text;
 			-webkit-text-fill-color: transparent;
 		}
@@ -174,19 +186,14 @@ body {
 		}
 	}
 }
+
 .past_spons {
 	font-family: IBM Plex Sans;
 	/*background: url(spons.png) bottom center no-repeat ;*/
 	/*height: 100vh;*/
 	text-align: center;
-	img {
-		max-width:100% !important;
-		height:auto;
-		margin-left: auto;
-		margin-right: auto;
-		display:block;
-	}
 	h1 {
+		font-family: Raleway;
 		font-size: 2vw;
 		padding-top: 70px;
 		font-weight: normal;
@@ -252,11 +259,12 @@ body {
 	color: rgba(#fff, 0.4);
 	/*letter-spacing: -2px;*/
 }
+
 .mobile-hero {
 
 	height: 80vh;
 	background: black;
-	width:100%;
+	width: 100%;
 	padding: 0;
 	margin: 0;
 	display: none;
@@ -271,16 +279,17 @@ body {
 		font-family: Raleway;
 		font-weight: normal;
 		font-size: 3rem;
-		background: #fc00ff;  /* fallback for old browsers */
-		background: -webkit-linear-gradient(to right, #00dbde, #fc00ff);  /* Chrome 10-25, Safari 5.1-6 */
-		background: linear-gradient(to right, #00dbde, #fc00ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+		background: #fc00ff;
+		/* fallback for old browsers */
+		background: -webkit-linear-gradient(to right, #00dbde, #fc00ff);
+		/* Chrome 10-25, Safari 5.1-6 */
+		background: linear-gradient(to right, #00dbde, #fc00ff);
+		/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 		-webkit-background-clip: text;
 		-webkit-text-fill-color: transparent;
-
 	}
 	h3 {
-		margin-top: 10px;
-		// margin-bottom: 100px;
+		margin-top: 10px; // margin-bottom: 100px;
 		font-family: IBM Plex Sans;
 		font-weight: normal;
 		font-size: 1rem;
@@ -297,10 +306,12 @@ body {
 		padding: 13px 20px;
 		&:active,
 		&:focus {
-			background: #fc00ff;  /* fallback for old browsers */
-			background: -webkit-linear-gradient(to right, #00dbde, #fc00ff);  /* Chrome 10-25, Safari 5.1-6 */
-			background: linear-gradient(to right, #00dbde, #fc00ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-			
+			background: #fc00ff;
+			/* fallback for old browsers */
+			background: -webkit-linear-gradient(to right, #00dbde, #fc00ff);
+			/* Chrome 10-25, Safari 5.1-6 */
+			background: linear-gradient(to right, #00dbde, #fc00ff);
+			/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 			// background: #00adef;
 			color: #fff;
 			border: 2px solid rgba(#fff, 0);
@@ -323,6 +334,7 @@ body {
 		}
 	}
 }
+
 @media only screen and (max-width: 1024px) {
 	.esya_logo {
 		top: 5px;
@@ -332,7 +344,6 @@ body {
 	}
 	.mobile-hero {
 		display: table;
-
 	}
 	.iiitd_logo {
 		height: 40px;
@@ -383,9 +394,12 @@ body {
 				font-weight: normal;
 				font-size: 2rem;
 				letter-spacing: -.2px;
-				background: #fc00ff;  /* fallback for old browsers */
-				background: -webkit-linear-gradient(to right, #00dbde, #fc00ff);  /* Chrome 10-25, Safari 5.1-6 */
-				background: linear-gradient(to right, #00dbde, #fc00ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+				background: #fc00ff;
+				/* fallback for old browsers */
+				background: -webkit-linear-gradient(to right, #00dbde, #fc00ff);
+				/* Chrome 10-25, Safari 5.1-6 */
+				background: linear-gradient(to right, #00dbde, #fc00ff);
+				/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 				-webkit-background-clip: text;
 				-webkit-text-fill-color: transparent;
 			}
@@ -437,27 +451,27 @@ body {
 		padding-top: 30px;
 		padding-bottom: 25px;
 
-			.name {
-				display: list-item !important;
-				padding-bottom: 20px;
-				h2 {
-					font-weight: normal;
-					font-family: IBM Plex Sans;
-					color: #999;
-					font-size: 1rem !important;
-					padding-bottom: 5px !important;
-				}
-				h3 {
-					font-weight: normal;
-				}
-				a {
-					text-decoration: none;
-					opacity: .7;
-					font-size: .9rem !important;
-					font-family: IBM Plex Sans;
-					color: #00adef;
-				}
+		.name {
+			display: list-item !important;
+			padding-bottom: 20px;
+			h2 {
+				font-weight: normal;
+				font-family: IBM Plex Sans;
+				color: #999;
+				font-size: 1rem !important;
+				padding-bottom: 5px !important;
 			}
+			h3 {
+				font-weight: normal;
+			}
+			a {
+				text-decoration: none;
+				opacity: .7;
+				font-size: .9rem !important;
+				font-family: IBM Plex Sans;
+				color: #00adef;
+			}
+		}
 	}
 
 	.savethedate {
@@ -471,10 +485,41 @@ body {
 
 
 .small {
-	font-size: 0.5rem;
+	font-size: 0.8	rem;
 	opacity: 0.7;
 	a {
 		color: #ff3355;
 		text-decoration: none;
+	}
+}
+.name {
+	img {
+		border-radius: 50%;
+		margin-bottom: 10px;
+	}
+}
+// .bottom {
+// 	padding-bottom: 30px;
+// }
+// .top {
+// 	// padding-top: 10px;
+// }
+// .bottom-small {
+// 	padding-bottom: 10px;
+// }
+.logosbar {
+	width: 100%;
+	padding: 10px 50px;
+	.logocontain {
+		padding: 0;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 20px;
+		text-align: center;
+		img {
+			vertical-align: middle;
+			margin-left: 50px;
+			margin-bottom: 80px;
+		}
 	}
 }

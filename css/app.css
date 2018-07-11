@@ -26,6 +26,25 @@ body {
   height: 100px;
   width: 100px; }
 
+.register_button {
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+  color: rgba(255, 255, 255, 0.5);
+  font-family: PT Mono;
+  text-decoration: none;
+  font-size: 12pt;
+  letter-spacing: 2px;
+  border-radius: 50px;
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  padding: 13px 35px; }
+  .register_button:hover {
+    background: #3DA7E2;
+    color: #fff; }
+  .register_button:active, .register_button:focus {
+    color: #fff;
+    border: 2px solid rgba(255, 255, 255, 0); }
+
 .iiitd_logo {
   position: absolute;
   left: 20px;
@@ -410,7 +429,7 @@ body {
     /*letter-spacing: -2px;*/ } }
 
 .small {
-  font-size: 0.8	rem;
+  font-size: 0.8 rem;
   opacity: 0.7; }
   .small a {
     color: #ff3355;

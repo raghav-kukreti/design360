@@ -127,8 +127,8 @@ body {
   color: rgba(0, 173, 239, 0.6); }
 
 .divider {
-  height: 50vh;
-  /*background: url("https://www.toptal.com/designers/subtlepatterns/patterns/memphis-colorful.png") center center fixed;*/
+  height: 30vh;
+  background: url("https://www.toptal.com/designers/subtlepatterns/patterns/memphis-colorful.png") center center fixed;
   display: table;
   width: 100%; }
   .divider .centered {
@@ -454,3 +454,79 @@ body {
         vertical-align: middle;
         margin-left: 50px;
         margin-bottom: 80px; }
+
+a {
+  color: black; }
+
+.card {
+  width: 100vw;
+  max-width: 100%;
+  padding: 150px 50px;
+  /*padding-top:60px;*/
+  text-align: center;
+  position: relative;
+  z-index: 101;
+  background-color: white; }
+
+.card h2 {
+  font-family: Raleway;
+  color: #2f68eb; }
+
+.card a {
+  color: #3979FD;
+  text-decoration: none; }
+
+.card a:hover {
+  color: #00adef; }
+
+#press {
+  background-color: white; }
+
+#press-array {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
+
+.press-element {
+  display: inline-block;
+  -webkit-box-flex: 1;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  /*height: 150px;*/
+  width: 30%;
+  margin-top: 20px;
+  padding: 20px; }
+
+.press-title {
+  font-size: 35px;
+  font-family: IBM Plex Sans;
+  font-weight: 100;
+  color: #3979FD; }
+
+.press-source {
+  font-size: 20px;
+  font-weight: 400;
+  font-family: IBM Plex Sans;
+  color: rgba(255, 255, 255, 0.7);
+  margin-top: 10px; }
+
+@media screen and (max-width: 900px) {
+  #press-array {
+    display: block; }
+  .press-element {
+    width: 100%; } }
+
+.underlinable:hover {
+  cursor: pointer; }
+
+#faq {
+  /*background-color: white;*/
+  background-color: black; }
+
+#faq-content {
+  width: 900px;
+  margin: auto;
+  text-align: left; }

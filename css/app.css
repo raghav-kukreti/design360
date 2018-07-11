@@ -448,7 +448,9 @@ body {
     margin-right: auto;
     margin-top: 20px;
     text-align: center; }
-    .logosbar .logocontain img {
-      vertical-align: middle;
-      margin-left: 50px;
-      margin-bottom: 80px; }
+    .logosbar .logocontain a {
+      text-decoration: none; }
+      .logosbar .logocontain a img {
+        vertical-align: middle;
+        margin-left: 50px;
+        margin-bottom: 80px; }

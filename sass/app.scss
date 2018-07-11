@@ -541,10 +541,13 @@ body {
 		margin-right: auto;
 		margin-top: 20px;
 		text-align: center;
-		img {
-			vertical-align: middle;
-			margin-left: 50px;
-			margin-bottom: 80px;
+		a {
+			text-decoration: none;
+			img {
+				vertical-align: middle;
+				margin-left: 50px;
+				margin-bottom: 80px;
+			}
 		}
 	}
 }

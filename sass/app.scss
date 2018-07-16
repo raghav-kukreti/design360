@@ -12,6 +12,158 @@ body {
 	font-size: 100%;
 }
 
+div.table-title {
+	text-align: center;
+	// margin: auto;
+	// max-width: 0px;
+	// padding: 5px;
+	// width: 100%;
+	font-size: 1.4rem;
+	font-family: Raleway;
+}
+
+
+
+
+/*** Table Styles **/
+
+.table-fill {
+	background: white;
+	border-radius: 3px;
+	border-collapse: collapse;
+	height: 320px;
+	margin: auto;
+	max-width: 1100px;
+	padding: 5px;
+	width: 100%;
+	// box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+	/*overflow-x:auto;*/
+	/*animation: float 5s infinite;*/
+}
+
+.tablewrap {
+	overflow-x: auto;
+}
+
+th {
+	color: #D5DDE5;
+	background: #1b1e24;
+	border-bottom: 4px solid #00adef;
+	border-right: 1px solid #00adef;
+	font-size: 23px;
+	font-weight: 100;
+	padding: 24px;
+	text-align: left;
+	/*overflow-x:auto;*/
+	/*text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);*/
+	vertical-align: middle;
+}
+
+th:first-child {
+	border-top-left-radius: 3px;
+}
+
+th:last-child {
+	border-top-right-radius: 3px;
+	border-right: none;
+}
+
+tr {
+	border: 1px solid #00adef;
+	// border-bottom-: 1px solid #00adef;
+	color: #222;
+	font-size: 16px;
+	font-weight: normal;
+	text-shadow: 0 1px/*1*/
+	px rgba(256, 256, 256, 0.1);
+	/*transition: background 0.3s;*/
+}
+
+tr:hover td {
+	background: #d9edfc;
+	color: #010814;
+	/*border-top: 1px solid #22262e;*/
+	/*border-bottom: 1px solid #22262e;*/
+}
+
+tr:first-child {
+	border-top: none;
+}
+
+tr:last-child {
+	border-bottom: none;
+}
+
+tr:nth-child(odd) td.text-center {
+	// background: #fff;
+	background: rgba(lighten(#00adef, 15%), 0.1);
+
+	color: #222;
+	// color: #FFFFFF;
+}
+
+tr:nth-child(odd):hover td {
+	background: rgba(#00adef, 0.2);
+}
+
+tr:last-child td:first-child {
+	border-bottom-left-radius: 3px;
+}
+
+tr:last-child td:last-child {
+	border-bottom-right-radius: 3px;
+}
+
+td {
+	background: #FFFFFF;
+	padding: 20px 25px;
+	/*font-size:1.0vw;*/
+	text-align: left;
+	vertical-align: middle;
+	font-family: "IBM Plex Sans";
+	font-weight: 300;
+	font-size: 18px;
+	/*text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.1);*/
+	border-right: 1px solid #00adef;
+	transition: background 0.3s;
+}
+
+td:last-child {
+	border-right: 0px;
+}
+
+th.text-left {
+	text-align: left;
+}
+
+th.text-center {
+	text-align: center;
+}
+
+th.text-center {
+	text-align: center;
+
+}
+
+th.text-right {
+	text-align: right;
+}
+
+td.text-left {
+	text-align: left;
+	/*padding-left: 3px;*/
+}
+
+td.text-center {
+	text-align: center;
+	background: rgba(darken(#00adef, 15%), 0.3);
+	// text-transform: uppercase;
+}
+
+td.text-right {
+	text-align: right;
+}
+
 .body {
 	font-smoothing: antialiased;
 	text-rendering: geometricPrecision;
@@ -49,7 +201,10 @@ body {
 		border: 2px solid rgba(#fff, 0);
 	}
 }
-
+.full--table {
+	padding: 80px 0;
+	margin-bottom: 100px;
+}
 .iiitd_logo {
 	position: absolute;
 	left: 20px;
@@ -146,12 +301,13 @@ body {
 .four {
 	color: rgba(#00adef, .6);
 }
+
 .coming_soon_two {
 	background: #fff !important;
 }
+
 .divider {
-	height: 30vh;
-	// background: url("https://www.toptal.com/designers/subtlepatterns/patterns/memphis-colorful.png") center center fixed;
+	height: 30vh; // background: url("https://www.toptal.com/designers/subtlepatterns/patterns/memphis-colorful.png") center center fixed;
 	display: table;
 	background: url(sep.JPG) center center no-repeat fixed;
 	background-size: cover;
@@ -560,6 +716,7 @@ body {
 a {
 	color: black;
 }
+
 .card {
 	width: 100vw;
 	max-width: 100%;
@@ -568,22 +725,25 @@ a {
 	text-align: center;
 	position: relative;
 	z-index: 101;
-	background-color:white;
+	background-color: white;
 }
+
 .card h2 {
 	font-family: Raleway;
-   color: #2f68eb;
+	color: #2f68eb;
 }
+
 .card a {
-   color: #3979FD;
-   text-decoration: none;
+	color: #3979FD;
+	text-decoration: none;
 }
+
 .card a:hover {
-    color: #00adef;
+	color: #00adef;
 }
+
 #press {
 	background-color: white;
-
 }
 
 #press-array {
@@ -611,22 +771,21 @@ a {
 	font-size: 20px;
 	font-weight: 400;
 	font-family: IBM Plex Sans;
-	color: rgba(#fff,0.7);
+	color: rgba(#fff, 0.7);
 	margin-top: 10px;
 }
 
-@media screen and (max-width: 900px){
+@media screen and (max-width: 900px) {
 	#press-array {
 		display: block;
 	}
 	.press-element {
-		width:100%;
+		width: 100%;
 	}
 }
 
 .underlinable:hover {
-	cursor: pointer;
-	// text-decoration: underline;
+	cursor: pointer; // text-decoration: underline;
 }
 
 #faq {

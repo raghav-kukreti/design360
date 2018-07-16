@@ -13,6 +13,121 @@ html,
 body {
   font-size: 100%; }
 
+div.table-title {
+  text-align: center;
+  font-size: 1.4rem;
+  font-family: Raleway; }
+
+/*** Table Styles **/
+.table-fill {
+  background: white;
+  border-radius: 3px;
+  border-collapse: collapse;
+  height: 320px;
+  margin: auto;
+  max-width: 1100px;
+  padding: 5px;
+  width: 100%;
+  /*overflow-x:auto;*/
+  /*animation: float 5s infinite;*/ }
+
+.tablewrap {
+  overflow-x: auto; }
+
+th {
+  color: #D5DDE5;
+  background: #1b1e24;
+  border-bottom: 4px solid #00adef;
+  border-right: 1px solid #00adef;
+  font-size: 23px;
+  font-weight: 100;
+  padding: 24px;
+  text-align: left;
+  /*overflow-x:auto;*/
+  /*text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);*/
+  vertical-align: middle; }
+
+th:first-child {
+  border-top-left-radius: 3px; }
+
+th:last-child {
+  border-top-right-radius: 3px;
+  border-right: none; }
+
+tr {
+  border: 1px solid #00adef;
+  color: #222;
+  font-size: 16px;
+  font-weight: normal;
+  text-shadow: 0 1px px rgba(255, 255, 255, 0.1);
+  /*transition: background 0.3s;*/ }
+
+tr:hover td {
+  background: #d9edfc;
+  color: #010814;
+  /*border-top: 1px solid #22262e;*/
+  /*border-bottom: 1px solid #22262e;*/ }
+
+tr:first-child {
+  border-top: none; }
+
+tr:last-child {
+  border-bottom: none; }
+
+tr:nth-child(odd) td.text-center {
+  background: rgba(61, 201, 255, 0.1);
+  color: #222; }
+
+tr:nth-child(odd):hover td {
+  background: rgba(0, 173, 239, 0.2); }
+
+tr:last-child td:first-child {
+  border-bottom-left-radius: 3px; }
+
+tr:last-child td:last-child {
+  border-bottom-right-radius: 3px; }
+
+td {
+  background: #FFFFFF;
+  padding: 20px 25px;
+  /*font-size:1.0vw;*/
+  text-align: left;
+  vertical-align: middle;
+  font-family: "IBM Plex Sans";
+  font-weight: 300;
+  font-size: 18px;
+  /*text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.1);*/
+  border-right: 1px solid #00adef;
+  -webkit-transition: background 0.3s;
+  -o-transition: background 0.3s;
+  transition: background 0.3s; }
+
+td:last-child {
+  border-right: 0px; }
+
+th.text-left {
+  text-align: left; }
+
+th.text-center {
+  text-align: center; }
+
+th.text-center {
+  text-align: center; }
+
+th.text-right {
+  text-align: right; }
+
+td.text-left {
+  text-align: left;
+  /*padding-left: 3px;*/ }
+
+td.text-center {
+  text-align: center;
+  background: rgba(0, 118, 163, 0.3); }
+
+td.text-right {
+  text-align: right; }
+
 .body {
   font-smoothing: antialiased;
   text-rendering: geometricPrecision; }
@@ -44,6 +159,10 @@ body {
   .register_button:active, .register_button:focus {
     color: #fff;
     border: 2px solid rgba(255, 255, 255, 0); }
+
+.full--table {
+  padding: 80px 0;
+  margin-bottom: 100px; }
 
 .iiitd_logo {
   position: absolute;

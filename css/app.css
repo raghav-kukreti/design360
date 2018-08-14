@@ -574,8 +574,8 @@ td.text-right {
     .logosbar .logocontain a {
       text-decoration: none; }
       .logosbar .logocontain a img {
+        margin-right: 20px;
         vertical-align: middle;
-        margin-left: 50px;
         margin-bottom: 80px; }
 
 a {

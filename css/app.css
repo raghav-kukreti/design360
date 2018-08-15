@@ -659,14 +659,28 @@ a {
 
 #schedule {
   margin: 0;
-  padding: 50px 20px 50px 20px;
+  padding: 150px 20px 150px 20px;
   text-align: center;
   background-color: white; }
 
 #schedule h2 {
   color: white;
-  font-size: 250%;
-  margin-top: 0; }
+  margin-top: 0;
+  margin-bottom: 30px;
+  font-family: Raleway;
+  font-weight: normal;
+  font-size: 5vw;
+  background: #fc00ff;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #00dbde, #fc00ff);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-gradient(linear, left top, right top, from(#00dbde), to(#fc00ff));
+  background: -webkit-linear-gradient(left, #00dbde, #fc00ff);
+  background: -o-linear-gradient(left, #00dbde, #fc00ff);
+  background: linear-gradient(to right, #00dbde, #fc00ff);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; }
 
 .schedule-div {
   text-align: center;
@@ -680,21 +694,24 @@ a {
   margin: 30px; }
 
 #schedule .day h6 {
-  color: black;
+  color: #202020;
+  font-family: Raleway;
   font-size: 120%;
   margin: 0;
   text-align: left;
-  font-weight: bold; }
+  font-weight: normal; }
 
 #schedule .day .list-div {
   text-align: left; }
 
 #schedule .list-item {
-  border-left: solid #2f68eb 5px;
+  border-left: solid transparent 5px;
   padding: 5px;
   padding-left: 4px;
   margin: 15px 0 15px 0;
-  background-color: rgba(47, 104, 235, 0.15); }
+  background-color: rgba(0, 173, 239, 0.15); }
+  #schedule .list-item:hover {
+    border-left: 5px solid #00adef; }
 
 #schedule .list-item:after {
   content: " ";
@@ -707,7 +724,6 @@ a {
   text-align: center; }
 
 #schedule h2 {
-  color: #2f68eb;
   font-size: 280%;
   margin-top: 0; }
 
@@ -720,10 +736,11 @@ a {
 
 #schedule .event {
   max-width: 1000px;
+  font-family: IBM Plex Sans;
   margin-top: 10px !important;
   color: rgba(0, 0, 0, 0.6);
   line-height: 200%;
-  font-size: 115%; }
+  font-size: 105%; }
 
 .day .time {
   text-transform: uppercase;

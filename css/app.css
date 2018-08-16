@@ -777,3 +777,36 @@ sub {
 .extra {
   color: white;
   font-size: 105%; }
+
+.judge_details {
+  background: #000;
+  height: 60vh;
+  padding: 150px 300px; }
+  .judge_details .judge .img {
+    width: 30%;
+    float: left; }
+  .judge_details .judge img {
+    height: 300px;
+    border-radius: 50%; }
+  .judge_details .judge h1 {
+    font-family: Raleway;
+    font-size: 2rem;
+    background: #fc00ff;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #00dbde, #fc00ff);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-gradient(linear, left top, right top, from(#00dbde), to(#fc00ff));
+    background: -webkit-linear-gradient(left, #00dbde, #fc00ff);
+    background: -o-linear-gradient(left, #00dbde, #fc00ff);
+    background: linear-gradient(to right, #00dbde, #fc00ff);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; }
+  .judge_details .judge h3 {
+    font-family: Raleway;
+    font-weight: 200;
+    color: #999; }
+  .judge_details .judge .lead {
+    color: #a7a7a7;
+    font-family: IBM Plex Sans;
+    vertical-align: baseline; }
